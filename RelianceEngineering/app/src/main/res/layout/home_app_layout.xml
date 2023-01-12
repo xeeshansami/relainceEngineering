@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.ActivityHome">
+    <com.google.android.material.appbar.AppBarLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:id="@+id/appbar"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            app:contentInsetStartWithNavigation="0dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:weightSum="5"
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <TextView
+                        android:layout_gravity="bottom"
+                        android:id="@+id/backBtn"
+                        android:fontFamily="@font/calibrib"
+                        android:text="Back"
+                        android:textColor="@color/light_blue_600"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:drawableTint="@color/light_blue_600"
+                        android:textSize="@dimen/_13sdp"
+                        android:visibility="gone"
+                        android:drawableLeft="@drawable/ic_baseline_menu_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"></TextView>
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/menu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_baseline_menu_24"
+                        tools:ignore="VectorDrawableCompat"
+                        app:tint="@android:color/holo_red_dark" />
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/heading1"
+                        android:fontFamily="@font/calibrib"
+                        android:gravity="left"
+                        android:textSize="@dimen/_13sdp"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:text="App"
+                        android:textStyle="bold"
+                        android:layout_gravity="bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"></TextView>
+                    <TextView
+                        android:layout_weight="5"
+                        android:id="@+id/heading"
+                        android:fontFamily="@font/calibrib"
+                        android:gravity="center"
+                        android:textSize="@dimen/_13sdp"
+                        android:textColor="@color/white"
+                        android:text="Code &amp; Temprature"
+                        android:textStyle="bold"
+                        android:layout_gravity="bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"></TextView>
+
+                    <ImageView
+                        android:layout_gravity="bottom"
+                        android:id="@+id/home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_3sdp"
+                        app:srcCompat="@drawable/ic_baseline_home_24"
+                        tools:ignore="VectorDrawableCompat"
+                        app:tint="@color/white" />
+
+
+
+                </LinearLayout>
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+</LinearLayout>

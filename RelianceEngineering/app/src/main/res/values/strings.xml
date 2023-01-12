@@ -1,0 +1,233 @@
+<resources>
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </array>
+    <string name="credits">I would like to dedicate this program to my mother and wife for their unconditional support and leadership and to my kids for their unlimited excitement and energies.
+</string>
+    <string name="disclaimer">The app "Stress Table US Customary" is developed to validate the design stress values used in the design calculation. The stress value at a given temperature is taken from ASME Section II Part D Table 1-A 2017 Edition for US Customary Unit. Necessary interpolation is implemented to give design stress value at intermediate temperature, where a value is provided in this app as "Nil" it is equivalent to "..." or vice versa.
+</string>
+    <string name="privacypolicy">This privacy policy has been compiled to better serve those who are concerned with how their \'Personally Identifiable Information\' (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.
+
+What personal information do we collect from the people that visit our blog, website or app?
+When ordering or registering on our site, as appropriate, you may be asked to enter your name, email address, phone number or other details to help you with your experience.
+
+When do we collect information?
+We collect information from you when you register on our site, subscribe to a newsletter, respond to a survey, fill out a form or enter information on our site.
+
+How do we use your information?
+</string>
+    <string name="subscription">Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.
+Account will be charged for renewal within 2-hours prior to the end of the current period.
+Subscription may be managed by the user manually by turning off the In-App Purchase of user account setting and then purchase the subscription within the app environment when required.
+</string>
+    <string name="subs1"> Auto-Renewal Subscription at the end of each year (Auto renewal can be turned off by going to Settings -&gt; General -&gt; Restrictions -&gt; In-App Purchases of iOS device at any time)
+
+</string>
+    <string name="special_symbol" >&#x2264;</string >
+    <string name="about2">This app is developed for quick reference and ease of use for stress value of specified material at given temperature. Every effort has been made to provide an accurate result, in case of discrepancy ASME Code stress values shall prevail.
+</string>
+    <string name="about1">The app "Stress Table US Customary" is developed to validate the design stress values used in the design calculation. The stress value at a given temperature is taken from ASME Section II Part D Table 1-A 2017 Edition for US Customary Unit. Necessary interpolation is implemented to give design stress value at intermediate temperature, where a value is provided in this app as "Nil" it is equivalent to "..." or vice versa.
+
+</string>
+
+    <string name="aboutUs1">Reliance Engineering and Services (RES) is dedicated to develop computer based tools and apps used in industrial and commercial application. Primarily focus is iOS and Android base application.
+
+Our engineering apps are focused to facilitate engineering judgements, validate values used in the design calculation, generating welding documents, design tools for pressure items build to international code &amp; standards and material procurement.
+</string>
+
+    <string name="aboutUs2">
+Some of the APP projects underway are, welding documents (WPQ, PQR, WPS), design verification of pressure item, tool to facilitate fabrication, material properties, fitness for service, international codes &amp; standards for pressure application etc.
+
+We also develop apps for commercial client involved in consumer markets. Some of the projects underway are online ordering, inventory management and customized business solution
+
+For inquiry please write to </string>
+    <string name="disclaimer1">The app "Stress Table US Customary" is developed to validate the design stress values used in the design calculation. The stress value at a given temperature is taken from ASME Section II Part D Table 1-A 2017 Edition for US Customary Unit. Necessary interpolation is implemented to give design stress value at intermediate temperature, where a value is provided in this app as "Nil" it is equivalent to "..." or vice versa.
+</string>
+    <string name="disclaimer2">This app is developed for quick reference and ease of use for stress value of specified material at given temperature. This app does not intend to supersede the Code requirement nor to suggest any requirement which is not supported by the Code. User are strongly suggested to do manual check where there is a doubt. Also encourage to contact us for improvement and modification.
+
+Every effort has been made to provide an accurate result, in case of discrepancy ASME Code stress values shall prevail.
+</string>
+
+    <string name="disclaimer3">
+The app developer or his organization holds no liability for the error or omission or for the consequence of any actions taken on the basis of information provided.
+
+</string>
+    <string name="disclaimer4">This app is intended for individuals who purchase it for specified period. Any illegal copying, downloading or mirroring of the app is against copyright and handled accordingly.
+</string>
+    <array name="questions_array">
+        <item>What is a stroke?</item>
+        <item>What are the type of stroke?</item>
+        <item>Who is at risk for stroke?</item>
+        <item>What are the symptoms of stroke?</item>
+        <item>How are strokes diagnosed?</item>
+        <item>What are the treatment for stroke?</item>
+        <item>Can strokes be prevented?</item>
+        <item>what disabilities can result from a stroke?</item>
+    </array>
+    <array name="questions_desc_array">
+        <item>series of related sentences developing a central idea, called the topic.
+            Try to think about paragraphs in terms of thematic unity:
+            a paragraph is a sentence
+        </item>
+        <item>
+            a paragraph is a sentence or a group of sentences that supports one central,
+            unified idea. Paragraphs add one idea at a time to your broader argument.
+        </item>
+        <item>Paragraphs add one idea at a time to your broader argument.</item>
+        <item>Try to think about paragraphs in terms of thematic unity:
+            a paragraph is a sentence or a group of sentences that supports one central,
+            unified idea. Paragraphs add one idea at a time to your broader argument.
+        </item>
+        <item>developing a central idea, called the topic.
+            Try to think about paragraphs in terms of thematic unity:
+            a paragraph is a sentence or a group of sentences that supports one central,
+            unified idea. Paragraphs add one idea at a time to your broader argument.
+        </item>
+        <item>group of sentences that supports one central,
+            unified idea. Paragraphs add one idea at a time to your broader argument.
+        </item>
+        <item>idea. Paragraphs add one idea at a time to your broader argument.</item>
+        <item>supports one central,
+            unified idea. Paragraphs add one idea at a time to your broader argument.
+        </item>
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">Reliance Engineering</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Powered By\nNeoEd Technologies (Pvt.) Ltd\nwww.neoedtechnologies.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="para">aksljdklasdlkasjd</string>
+    <string name="backStr"><![CDATA[<< Back]]></string>
+    <string name="nextStr"><![CDATA[NEXT >>]]></string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="passive_exercise">Passive Exercise</string>
+    <string name="functional_activities">Functional Activities</string>
+    <string name="active_exercise">Active Exercise</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="urdu">Urdu</string>
+    <string name="my_account">My Account</string>
+    <string name="update_an_account">Update Account</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="bilateral_shoulder_flexion_with_both_hands_interlocked">Bilateral Shoulder Flexion with both hands interlocked</string>
+    <string name="shoulder_horizontal_abduction">Shoulder Horizontal Abduction</string>
+    <string name="shoulder_abduction">Shoulder Abduction</string>
+    <string name="elbow_flexion_and_extension">Elbow Flexion and Extension</string>
+    <string name="elbow_pronation_and_supination">Elbow Pronation and Supination</string>
+    <string name="wrist_flexion_and_extension">Wrist Flexion and Extension</string>
+    <string name="extend_elbow">Extend Elbow</string>
+    <string name="forearm_to_box">Forearm to Box</string>
+    <string name="hand_to_box">Hand to Box</string>
+    <string name="stroke_information">Stroke Information</string>
+    <string name="excercuse_information">Exercise Progression</string>
+    <string name="excercuse_desc">Week 1 : 8-10 repetitions\n\nWeek 2 : 15 repetitionn\n\nWeek 3 : 20 repetitions\n\nWeek 4 : 25-30 repetitions</string>
+    <string name="upper_limb_exercise">Upper Limb Exercise</string>
+    <string name="lift_can">Lift Can</string>
+    <string name="lift_pencil">Lift Pencil</string>
+    <string name="stack_checkers">Stack Checkers</string>
+    <string name="flip_cards">Flip Cards</string>
+    <string name="fold_towel">Fold Towel</string>
+    <string name="drinking_water_from_glass">Drinking Water from Glass</string>
+    <string name="lifting_glass_of_water_at_90_shoulder_flexion">Lifting Glass of Water at 90° Shoulder Flexion</string>
+    <string name="moving_5_crystals_from_table_to_box">Moving 5 Crystals from Table to Box</string>
+    <string name="wiping_the_table">Wiping the Table</string>
+    <string name="grasping_and_releasing_ball">Grasping and Releasing Ball</string>
+    <string name="combing_hair">Combing Hair</string>
+    <string name="eating_with_affected_hand">Eating with Affected Hand</string>
+    <string name="opening_and_closing_jar">Opening and Closing Jar</string>
+    <string name="shoulder_flexion">Shoulder Flexion</string>
+    <string name="roms_for_shoulder">ROMs for shoulder</string>
+    <string name="roms_for_elbow">ROMs for Elbow</string>
+    <string name="roms_for_wrist_fingers_and_thumb">ROMs for wrist, Fingers and Thumb</string>
+    <string name="full_name">Full Name</string>
+    <string name="age">Age</string>
+    <string name="city">City</string>
+    <string name="translation">Instructions</string>
+    <string name="bilateral_shoulder_flexion_with_both_hands_interlocked_Str">•Patient should be in supine lying position.\n\n\nAsk the patient to clasp/hold the affected hand with the help of unaffected hand.\n\n\nThen flex both shoulders as demonstrated in the video.\n\n\nRepeat this exercise 10 times.\n\n</string>
+    <string name="shoulder_horizontal_abduction_str">•Patient should be in supine lying position.\n\n\nAsk the patient to clasp/hold the affected hand with the help of unaffected hand.\n\n\nBring both arms at the level of 90° then move the arms right and left side as demonstrated in the video.\n\n\nRepeat this exercise 10 times.\n\n</string>
+    <string name="shoulder_abduction_str">•Patient should be in supine lying position.\n\n\nAsk the patient to abduct the affected arm as demonstrated in the video.\n\n\nRepeat this exercise 10 times.\n\n</string>
+    <string name="elbow_flexion_and_extension_str">•Ask the patient to place the affected arm on the table.\n\n\nThen bend (flex) and straighten (extend) the elbow as demonstrated in the video.\n\n\ntKeep your body straight and shoulders back and avoid compensatory movemens of body.\n\n\nRepeat this exercise 10 times.\n\n</string>
+    <string name="elbow_pronation_and_supination_str">•Ask the patient to place the affected arm on the table.\n\n\nPerform the pronation and supination of elbow as demonstrated in the video.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this exercise 10 times.\n\n</string>
+    <string name="wrist_flexion_and_extension_str">•Ask the patient to clasp/hold the affected hand with the help of unaffected hand.\n\n\nThen bend and straighten the wrist as demonstrated in the video.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this exercise 10 times.\n\n</string>
+    <string name="extend_elbow_str">•Patient should be sitting at the side of the table.\n\n\ntAsk the patien to place affected arm on the table and straighten the elbow sideways as demonstrated in the video.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="forearm_to_box_str">•Patient should be sitting at the side of the table.\n\n\nPlace a box on the table.\n\n\nAsk the patient to place affected forearm on the box then remove it as demonstrated in the video.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="hand_to_box_str">•Patient should be sitting in front of the table.\n\n\nPlace a box on the table.\n\n\nAsk the patient to place affected hand on the box then remove it as demonstrated in the video.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="lift_can_str">•Sit in front of the table and place a can on the table.\n\n\nLift can with your affected hand.\n\n\nThen place it back on the table.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="lift_pencil_str">•Sit in front of the table and place a pencil on the table.\n\n\nLift pencil with your affected hand.\n\n\nThen place it back on the table.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="stack_checkers_str">1. Sit in front of the table and place paper clip on the table.\n\n\n2. Lift paper clip with your affected hand.\n\n\n3. Then place it back on the table.\n\n\n4. Keep your body straight and shoulders back and avoid compensatory movements of body.\n\n\n5. Repeat this activity 10 times.\n\n\n</string>
+    <string name="flip_cards_str">•Sit in front of the table and place three cards on the table.\n\n\nFlip cards one by one with your affected hand.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="fold_towel_str">•Sit in front of the table and place a towel on the table.\n\n\nFold it as demonstrated in the video with your affected hand.\n\n\nThen unfold it.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="drinking_water_from_glass_str">•Sit in front of the table and place a glass of water on the table.\n\n\nHold it with your affected hand.\n\n\nThen bring it close to your mouth and drink.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n</string>
+    <string name="lifting_glass_of_water_at_90_shoulder_flexion_str">•Sit in front of the table and place a glass on the table.\n\n\nLift a glass of water at the angle of 90° shoulder flexion with elbow extended.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="moving_5_crystals_from_table_to_box_str">•Sit in front of the table, place 5 crystals (or any alternate items) and an empty box/jar on the table.\n\n\nPick the crystals one by one and put them inside the box/jar with your affected hand.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n</string>
+    <string name="wiping_the_table_str">•Sit in front of the table and place a towel on the table.\n\n\nExtend your elbow to reach the towel then wipe the table with with your affected hand.\n\n\nKeep elbow extended while wiping.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="grasping_and_releasing_ball_str">•Grasp a 6cm diameter ball with your affected hand.\n\n\nThen squeeze the ball in your hand and release it.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="combing_hair_str">•Sit in front of the table and place a comb on the table.\n\n\nLift a comb from the table with your affected hand.\n\n\nThen comb your hair.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="eating_with_affected_hand_str">•Sit in front of the table and place food on the table.\n\n\nHold the spoon with your affected hand.\n\n\nPut the food in the spoon.\n\n\nThen bring the spoon close to your mouth and eat.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n</string>
+    <string name="opening_and_closing_jar_str">•Sit in front of the table and place a jar on the table.\n\n\nHold the jar with your unaffected hand.\n\n\nOpen the lid of the jar with your affected hand.\n\n\nKeep your body straight and shoulders back and avoid compensatory movements of body.\n\n\nRepeat this activity 10 times.\n\n</string>
+    <string name="roms_for_elbow_str">•Patient should be in supine lying position.\n\n\nCaregiver should be standing at the side of patient.\n\n\nHold the patient’s affected arm from the wrist then bend the elbow and straighten it as demonstrated in the video.\n\n\nRepeat this exercise 10 times.\n\n</string>
+    <string name="roms_for_wrist_fingers_and_thumb_str">•Patient should be in supine lying position.\n\n\nCaregiver should be standing at the side of patient.\n\n\nHold the patient’s affected arm from the wrist then bend the wrist first then straighten it as demonstrated in the video.\n\n\nRepeat this exercise 10 times.\n\n\nHold the affected arm from wrist then move the thumb and fingers in all possible directions and return to original position.\n\n\nRepeat this exercise 10 times.\n\n</string>
+    <string name="shoulder_flexion_str">•Patient should be in supine lying position.\n\n\nCaregiver should be standing at the side of patient.\n\n\nHold the patient’s arm at the level of elbow and hand as demonstrated in the video.\n\n\nPerform the flexion of shoulder as demonstrated in the video.\n\n\nRepeat this exercise 10 times.\n\n</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">COonfirm New Password</string>
+    <string name="update">Update</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="email_or_mobile">Email or Mobile</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="home">Home</string>
+    <string name="account">Account</string>
+    <string name="mob_err">Please enter mobile number</string>
+    <string name="mob_err_digits">Please enter the 13 digits of emobile number</string>
+    <string name="please_wait">Please wait</string>
+    <string name="loading_in">Logging in...</string>
+    <string name="login_err">Login failed, please enter your valid mobile number or register your self</string>
+    <string name="login_success">Login successfully...</string>
+    <string name="fname_err">Please enter the full name</string>
+    <string name="lname_err">Please enter the last name</string>
+    <string name="age_err">Please enter age</string>
+    <string name="city_err">Please enter the city name</string>
+    <string name="mobile_err">Please enter the mobile number</string>
+    <string name="mobile_digits_err">Please enter 11 digits of mobile number and also start with 03xxxxxxxxx</string>
+    <string name="buffering">Buffering...</string>
+    <string name="birth_err">Please select date of birth</string>
+    <string name="pwd_err">Please enter the old password</string>
+    <string name="newPwd_err">Please enter the new password</string>
+    <string name="confirm_err">Please enter the confirm new password</string>
+    <string name="matchPwd_err">New and confirm password is not match</string>
+    <string name="login_out_err">Logging out...</string>
+    <string name="email_err">Please enter the valid email or mobile number</string>
+    <string name="old_pwd_err">Please enter the old password</string>
+    <string name="exercise_info">Exercise Progression</string>
+
+    <string name="mobile_err_2">Mobile number should be start with 03XXXXXXXXX</string>
+    <string name="update_failed">Update failed, try again</string>
+    <string name="update_succcess">Update successfully!</string>
+    <string name="updating">Updating...</string>
+    <string name="lift_paper_clip">Lift Paper Clip</string>
+    <string name="lift_paper_clip_str">.Sit in front of the table and place paper clip on the table.\n\n\n.Lift paper clip with your affected hand.\n\n\n. Then place it back on the table.\n\n\n. Keep your body straight and shoulders back and avoid compensatory movements of body.\n\n\n. Repeat this activity 10 times.</string>
+    <string name="header1"><u>What is a stroke?</u></string>
+    <string name="text1">A stroke, sometimes called a “brain attack,” occurs when blood flow to the brain is interrupted. When a stroke occurs, brain cells in the immediate area begin to die because they stop getting the oxygen and nutrients they need to function. This can cause lasting brain damage, long-term disability, or even death. </string>
+    <string name="text2">If your stroke affected the right side of your brain, your movement and sensation on the left side of your body may be affected. If your stroke damaged the brain tissue on the left side of your brain, your movement and sensation on the right side of your body may be affected. Brain damage to the left side of your brain may cause speech and language disorders.</string>
+    <string name="header2"><u>What are the types of stroke?</u></string>
+    <string name="text3">The three main types of stroke are:\n\n1)Ischemic stroke is caused by a blood clot that blocks or plugs a blood vessel in the brain. Blocked or narrowed blood vessels are caused by fatty deposits that build up in blood vessels or by blood clots or other debris that travel through your bloodstream and lodge in the blood vessels in your brain. This is the most common type; about 80 percent of strokes are ischemic.\n\n2)Hemorrhagic stroke is caused by a blood vessel that breaks and bleeds into the brain. The leaked blood puts too much pressure on brain cells, which damages them. High blood pressure and aneurysms—balloon-like bulges in an artery that can stretch and burst—are examples of conditions that can cause a hemorrhagic stroke. There are two types of hemorrhagic strokes: \n\n•Intracerebral hemorrhage is the most common type of hemorrhagic stroke. It occurs when an artery in the brain bursts, flooding the surrounding tissue with blood. \n\n•Subarachnoid hemorrhage is a less common type of hemorrhagic stroke. It refers to bleeding in the area between the brain and the thin tissues that cover it.\n\n3)Transient Ischemic Attack (TIA) Another condition that\'s similar to a stroke. It\'s sometimes called a \"mini-stroke.\" TIAs happen when the blood supply to the brain is blocked for a short time- usually no more than 5 minutes. The damage to the brain cells isn\'t permanent, but if you have had a TIA, you are at a much higher risk of having a stroke. Recognizing and treating TIAs can lower the risk of a major stroke. If you have a TIA, your health care team can find the cause and take steps to prevent a major stroke.</string>
+    <string name="header3"><u>Who is at risk for a stroke?</u></string>
+    <string name="header4">Certain factors can raise your risk of a stroke. The major risk factors include \n\n•High blood pressure. This is the primary risk factor for a stroke. \n\n•Diabetes. \n\n•Heart diseases. Atrial fibrillation and other heart diseases can cause blood clots that lead to stroke. \n\n•Smoking. When you smoke, you damage your blood vessels and raise your blood pressure. \n\n•A personal or family history of stroke or TIA. \n\n•Age. Your risk of stroke increases as you get older. \n\n•Race and ethnicity. African Americans have a higher risk of stroke. There are also other factors that are linked to a higher risk of stroke, such as \n\n•Alcohol and illegal drug use \n\n•Not getting enough physical activity \n\n•High cholesterol \n\n•Unhealthy diet \n\n•Having obesity </string>
+    <string name="text5">"The symptoms of stroke often happen quickly. They include \n\n•Sudden numbness or weakness of the face, arm, or leg (especially on one side of the body) \n\n•Sudden confusion, trouble speaking, or understanding speech \n\n•Sudden trouble seeing in one or both eyes \n\n•Sudden difficulty walking, dizziness, loss of balance or coordination \n\n•Sudden severe headache with no known cause</string>
+    <string name="header5"><u>How are strokes diagnosed?</u></string>
+    <string name="text6">Some of the tests you may have include: \n\n•A physical exam. Your doctor will do a number of tests you\'re familiar with, such as listening to your heart and checking your blood pressure. You\'ll also have a neurological exam to see how a potential stroke is affecting your nervous system. o\n\nYour mental alertness o\n\nYour coordination and balance o\n\nAny numbness or weakness in your face, arms, and legs o\n\nAny trouble speaking and seeing clearly \n\n•Blood tests \n\n•Computerized tomography (CT) scan \n\n•Magnetic resonance imaging (MRI) \n\n•Carotid ultrasound \n\n•Cerebral angiogram \n\n•Echocardiogram Heart tests, which can help detect heart problems or blood clots that may have led to a stroke.</string>
+    <string name="header6"><u>What are the treatments for stroke?</u></string>
+    <string name="text7">Treatments for stroke include medicines, surgery, and rehabilitation. Which treatments you get depend on the type of stroke and the stage of treatment. The different stages are \n\n•Acute treatment, to try to stop a stroke while it is happening \n\n•Post-stroke rehabilitation, to overcome the disabilities caused by the stroke \n\n•Prevention, to prevent a first stroke or, if you have already had one, prevent another stroke  Can strokes be prevented? If you have already had a stroke or are at risk of having a stroke, you can make some heart-healthy lifestyle changes to try to prevent a future stroke:  \n\n•Managing your blood pressure and cholesterol levels \n\n•Managing diabetes.  \n\n•Quitting smoking \n\n•Avoiding alcohol.  \n\n•Treating obstructive sleep apnea (OSA).  \n\n•Avoiding illegal drugs.  \n\n•Eating a heart-healthy diet \n\n•Aiming for a healthy weight \n\n•Managing stress \n\n•Getting regular physical activity or exercise  If these changes aren\'t enough, you may need medicine to control your risk factors.</string>
+    <string name="header7"><u>What disabilities can result from a stroke?</u></string>
+    <string name="text8">Although stroke is a disease of the brain, it can affect the entire body. A stroke can sometimes cause temporary or permanent disabilities, depending on how long the brain lacks blood flow and which part was affected. Complications may include: \n\n•Paralysis or loss of muscle movement. You may become paralyzed on one side of your body, or lose control of certain muscles, such as those on one side of your face or one arm. \n\n•Difficulty talking or swallowing.  \n\n•Memory loss or thinking difficulties.  \n\n•Emotional problems.  \n\n•Pain.  \n\n•Changes in behavior and self-care ability.</string>
+    <string name="header8"><u>What are the symptoms of stroke?</u></string>
+</resources>

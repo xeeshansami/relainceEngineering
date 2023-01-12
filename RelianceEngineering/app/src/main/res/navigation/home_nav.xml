@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/home">
+
+
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.fyp.fragments.Home.FragmentHome"
+        android:label="FragmentHome"
+        tools:layout="@layout/fragment_home" >
+        <action
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true"
+            android:id="@+id/action_home_to_setting"
+            app:destination="@id/dasboard"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+
+    </fragment>
+    <activity
+        android:id="@+id/dasboard"
+        android:name="com.fyp.activities.ActivitySetting"
+        android:label="Setting"
+        tools:layout="@layout/activity_dashboard" >
+    </activity>
+
+
+</navigation>

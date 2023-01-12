@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/themeColor"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:background="@drawable/bottom_line"
+        android:backgroundTint="@color/gray"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Location Reference: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:paddingRight="@dimen/_5sdp"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Material Specification: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:paddingRight="@dimen/_5sdp"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:paddingRight="@dimen/_5sdp"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Product Form: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:layout_weight="1"
+                android:paddingRight="@dimen/_5sdp"
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Type \ Grade: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Alloy Desing \ UNS No: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Class \\ Temper: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Size \\ Thickness (INCH): "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="P - Number: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Group Number: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Min Tensile Strength (KSI): "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Min Yield Strength (KSI): "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="External Pressure Chart No: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Note: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="MAXIMUM TEMPERATURE LIMITS(&#xb0;F)"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Section I: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Section III: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Section VIII-1: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:background="@drawable/bottom_line2"
+            android:backgroundTint="@color/gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Section XII: "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"></TextView>
+
+            <TextView
+                android:paddingRight="@dimen/_5sdp"
+                android:layout_weight="1"
+                android:id="@+id/txt18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="right"
+                android:text="Nominal Composition: "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_10sdp"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

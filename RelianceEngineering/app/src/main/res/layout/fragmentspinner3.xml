@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/NestedScrollBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tab_bg">
+
+        <NumberPicker
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:spinnerMode="dropdown"
+            tools:listitem="@layout/view_spinner_finger_list"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            app:layout_constraintBottom_toTopOf="@+id/submitBtn"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:fontFamily="@font/calibrib"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="Selected Material: "
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/spinnerValue"
+                android:fontFamily="@font/calibrib"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@android:color/holo_red_dark"
+                android:text=""
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+
+        <Button
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:background="@color/black"
+            android:text="Submit"
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Button>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

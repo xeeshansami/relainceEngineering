@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/setting">
+
+
+
+    <activity
+        android:id="@+id/home"
+        android:name="com.fyp.activities.ActivityHome"
+        android:label="LogActivity"
+        tools:layout="@layout/activity_logs" >
+    </activity>
+    <fragment
+        android:id="@+id/setting"
+        android:name="com.fyp.fragments.Setting.Setting"
+        android:label="Setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/action_setting_to_home"
+            app:destination="@id/home"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/action_setting_to_about"
+            app:destination="@id/about"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/action_setting_to_subscription"
+            app:destination="@id/subscription"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/action_setting_to_aboutApp"
+            app:destination="@id/aboutus"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/action_setting_to_credits"
+            app:destination="@id/credits"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/action_setting_to_disclaimer"
+            app:destination="@id/discalimer"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/action_setting_to_howItsWorks"
+            app:destination="@id/howsItWorks"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/action_setting_to_privacyPolicy"
+            app:destination="@id/privacyPolicy"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/about"
+        android:name="com.fyp.fragments.Setting.About"
+        android:label="About"
+        tools:layout="@layout/about" >
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/back_to_home"
+            app:destination="@id/setting"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/subscription"
+        android:name="com.fyp.fragments.Setting.Subcriptions"
+        android:label="Subcriptions"
+        tools:layout="@layout/subscription" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/aboutus"
+        android:name="com.fyp.fragments.Setting.AboutApp"
+        android:label="AboutApp"
+        tools:layout="@layout/aboutus" >
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/back_to_home"
+            app:destination="@id/setting"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/credits"
+        android:name="com.fyp.fragments.Setting.Credits"
+        android:label="Credits"
+        tools:layout="@layout/credits" >
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/back_to_home"
+            app:destination="@id/setting"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/howsItWorks"
+        android:name="com.fyp.fragments.Setting.HowItWorks"
+        android:label="HowItWorks"
+        tools:layout="@layout/howsitworks" >
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/back_to_home"
+            app:destination="@id/setting"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyPolicy"
+        android:name="com.fyp.fragments.Setting.PrivacyPolicy"
+        android:label="PrivacyPolicy"
+        tools:layout="@layout/privacypolicy" >
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/back_to_home"
+            app:destination="@id/setting"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/discalimer"
+        android:name="com.fyp.fragments.Setting.Disclaimer"
+        android:label="Disclaimer"
+        tools:layout="@layout/disclaimer" >
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/back_to_home"
+            app:destination="@id/setting"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/sortBy"
+        android:name="com.fyp.fragments.SortBy.FragmentSortBy"
+        android:label="ActivityDashboard"
+        tools:layout="@layout/activity_sortby" >
+    </fragment>
+
+
+</navigation>

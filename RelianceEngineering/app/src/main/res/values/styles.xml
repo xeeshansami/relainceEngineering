@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="Widget.Theme.FYP.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/themeColor</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="android:fontFamily">@font/arial_regular</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="NestedScrollBarStyle">
+        <item name="android:scrollbarThumbVertical">@color/white</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+    <style name="EdittextTheme" parent="Widget.Design.TextInputLayout">
+        <item name="hintEnabled">@color/hint</item>
+    </style>
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/themeColor</item>
+    </style>
+    <style name="Loader" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

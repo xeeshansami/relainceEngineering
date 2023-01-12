@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/submit">
+
+    <fragment
+        android:id="@+id/submit"
+        android:name="com.fyp.fragments.Submit.FragmentSubmit"
+        android:label="FragmentSubmit"
+        tools:layout="@layout/fragment_submit">
+        <action
+            app:popUpToInclusive="true"
+            android:id="@+id/action_submit_to_summary"
+            app:destination="@id/summary"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/summary"
+        android:name="com.fyp.fragments.Submit.Summary"
+        android:label="Summary"
+        tools:layout="@layout/summary"></fragment>
+
+
+</navigation>
